@@ -3,6 +3,6 @@
 
     angular
         .module('app.contents', [
-            'app.examples.dashboards'    
+            'app.contents.contacts'
         ]);
 })();

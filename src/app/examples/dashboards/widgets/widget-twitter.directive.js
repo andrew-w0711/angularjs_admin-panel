@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.examples.dashboards')
+        .module('app.contents.contacts')
         .directive('twitterWidget', twitterWidget);
 
     /* @ngInject */
