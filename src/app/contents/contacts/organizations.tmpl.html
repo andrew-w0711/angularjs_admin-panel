@@ -48,11 +48,11 @@
                 </thead>
                 <tbody>
                 <tr md-auto-select ng-repeat="org in vm.orgs">
-                    <td>{{::org.attributes.reference}}</td>
-                    <td>{{::org.attributes.name}}</td>
-                    <td>{{::org.attributes.nickname}}</td>
-                    <td>{{::org.attributes.created_at | date: 'medium'}}</td>
-                    <td>{{::org.attributes.modified_at | date: 'medium'}}</td>
+                    <td>{{::org.reference}}</td>
+                    <td>{{::org.name}}</td>
+                    <td>{{::org.nickname}}</td>
+                    <td>{{::org.created_at | date: 'medium'}}</td>
+                    <td>{{::org.modified_at | date: 'medium'}}</td>
                 </tr>
                 </tbody>
             </table>

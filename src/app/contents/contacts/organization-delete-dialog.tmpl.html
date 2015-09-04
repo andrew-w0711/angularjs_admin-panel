@@ -12,8 +12,7 @@
         <form name="confirmationForm" ng-submit="ctrl.confirm()">
             <md-input-container class="md-default-theme">
                 <label for="reference">Reference number</label>
-                <input name="reference" type="text" ng-model="ctrl.reference" id="reference" label="Reference"
-                       required />
+                <input name="reference" type="text" ng-model="ctrl.reference" id="reference" label="Reference" required />
 
                 <div ng-messages="confirmationForm.reference.$error" ng-show="confirmationForm.reference.$dirty">
                     <div ng-message when="required">

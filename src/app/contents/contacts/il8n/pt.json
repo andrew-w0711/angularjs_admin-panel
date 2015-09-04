@@ -4,5 +4,9 @@
             "CONTACTS": "Contatos",
             "ORGANIZATIONS": "Organizações"
         }
-    }
+    },
+    "CONTACTS": {
+		"ORGANIZATION": "organization",
+		"SELECTED": "selected"
+	}
 }

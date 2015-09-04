@@ -1,6 +1,6 @@
 (function() {
     'use strict';
-
+ 
     angular
         .module('app.contents.contacts')
         .config(moduleConfig);
@@ -28,6 +28,5 @@
                 type: 'link'
             }]
         });
-
     }
 })();
