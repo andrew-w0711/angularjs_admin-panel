@@ -7,12 +7,12 @@
 
     /* @ngInject */
     function moduleConfig($translatePartialLoaderProvider, $stateProvider, triMenuProvider) {
-        $translatePartialLoaderProvider.addPart('app/examples/dashboards');
+        $translatePartialLoaderProvider.addPart('app/contents/contacts');
 
         $stateProvider
         .state('triangular.admin-default.dashboard-analytics', {
             url: '/contacts/organizations',
-            templateUrl: 'app/examples/dashboards/dashboard-analytics.tmpl.html',
+            templateUrl: 'app/contents/contacts/dashboard-analytics.tmpl.html',
             controller: 'DashboardAnalyticsController',
             controllerAs: 'vm'
         })

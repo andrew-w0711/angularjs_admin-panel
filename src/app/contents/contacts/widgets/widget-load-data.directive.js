@@ -35,7 +35,7 @@
                         });
                         $mdDialog.show({
                             controller: LoadDataDialogController,
-                            templateUrl: 'app/examples/dashboards/widgets/widget-load-data-dialog.tmpl.html',
+                            templateUrl: 'app/contents/contacts/widgets/widget-load-data-dialog.tmpl.html',
                             targetEvent: $event,
                             locals: {
                                 data: data
