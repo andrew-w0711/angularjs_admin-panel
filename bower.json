@@ -30,8 +30,13 @@
     "angular-linkify": "~1.2.0",
     "angular-ui-calendar": "~1.0.0",
     "weather-icons": "https://github.com/chk1/weather-icons.git#master",
+    "highlightjs": "~8.7.0",
+    "flat-surface-shader": "*",
+    "restangular": "~1.5.1",
+    "angular-jwt": "~0.0.9",
     "angular-material-data-table": "0.8.0",
-    "angular-digest-hud": "~0.1.13"
+    "angular-digest-hud": "~0.1.13",
+    "angular-gravatar": "~0.4.1"
   },
   "devDependencies": {
     "angular-mocks": "1.4.5"

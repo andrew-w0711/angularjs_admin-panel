@@ -4,8 +4,29 @@
     angular
         .module('app', [
             'triangular',
-            'ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngMaterial',
-            'ui.router', 'pascalprecht.translate', 'LocalStorageModule', 'googlechart', 'chart.js', 'linkify', 'ui.calendar', 'angularMoment', 'textAngular', 'uiGmapgoogle-maps', 'hljs', 'md.data.table',
+            'ngAnimate',
+    'ngCookies',
+    'ngTouch',
+    'ngSanitize',
+    'ngMessages',
+    'ngMaterial',
+
+    // inject extra 3rd party angular modules
+    'ui.router',
+    'pascalprecht.translate',
+    'LocalStorageModule',
+    'googlechart',
+    'chart.js',
+    'linkify',
+    'ui.calendar',
+    'angularMoment',
+    'textAngular',
+    'uiGmapgoogle-maps',
+    'hljs',
+    'angular-jwt',
+    'restangular',
+    'md.data.table',
+    'ui.gravatar',
             // 'seed-module'
             // uncomment above to activate the example seed module
             'app.contents'
