@@ -18,12 +18,12 @@
         })
 
         triMenuProvider.addMenu({
-            name: 'Contacts',
+            name: 'MENU.CONTACTS.CONTACTS',
             icon: 'icon-contacts',
             type: 'dropdown',
-            priority: 2.1,
+            priority: 1,
             children: [{
-                name: 'Organizations',
+                name: 'MENU.CONTACTS.ORGANIZATIONS',
                 state: 'triangular.admin-default.dashboard-analytics',
                 type: 'link'
             }]
